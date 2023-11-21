@@ -15,7 +15,6 @@ route.post('/register',(req,res)=>{
     })
 })
 
-
 //Login route
 route.post('/login',(req,res)=>{
     User.findOne({email:req.body.email})
@@ -49,13 +48,6 @@ route.post('/add-post', (req,res)=>{
         res.json("Congratulations!! Post has been added Successfully!!")
     })
 })
-
-
-
-
-
-
-
 
 
 module.exports=route

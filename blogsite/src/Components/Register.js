@@ -30,7 +30,7 @@ function Register() {
 
   return (
     <div className='container'>
-        <h2 className='m-5 text-center'>Register</h2>
+        <h2 className="m-5 text-center fw-bold fs-1">REGISTER</h2>
         <form onSubmit={(e)=>Register(e)} className='col-md-5 mx-auto' >
           <div className="form-group">
             <label for="exampleInputEmail1">Email address</label>

@@ -9,6 +9,8 @@ function AddPost() {
     const[msg, setmsg]=useState('')
 
     function handleSubmit(e){
+    e.preventDefault()
+    
         const blog={
             title:title,
             desc:desc,
